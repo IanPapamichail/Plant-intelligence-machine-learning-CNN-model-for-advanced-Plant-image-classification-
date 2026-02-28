@@ -1,0 +1,64 @@
+{
+  "session_id": "string",
+  "session_start_time": "2026-02-22T21:43:07.633133+00:00",
+  "session_end_time": "2026-02-22T21:43:07.645983+00:00",
+  "session_duration": 0.0,
+  "crop": {
+    "user_selected": "olive",
+    "predicted": "olive",
+    "confidence": 0.0,
+    "mismach": false
+  },
+  "organs": [
+    {
+      "type": "leaf",
+      "confidence": 0.0
+    }
+  ],
+  "triage": {
+    "status": "unknown",
+    "confidence": 0.0
+  },
+  "suspects": [],
+  "severity": {
+    "Level": 0,
+    "affected_area_percent": 0.0,
+    "confidence": 0.0
+  },
+  "uncertainty": {
+    "low_confidence": true,
+    "reasons": [
+      "stub_model"
+    ],
+    "crop_unsertainty": 0.0,
+    "organ_unsertainty": 0.0,
+    "triage_unsertainty": 0.0,
+    "severity_unsertainty": 0.0
+  },
+  "next_actions": {
+    "needs_more_info": true,
+    "capture_requests": [
+      "closeup of leaf(top surface) filling most of the frame",
+      "closeup of leaf(bottom surface) filling most of the frame",
+      "closeup of leaf side (front) filling most of the frame",
+      "closeup of leaf side (back) filling most of the frame"
+    ]
+  },
+  "image_id": "85b44e6e-2fad-40c5-8e35-dc059fae9071",
+  "quality_report": {
+    "quality_pass": false,
+    "blur_score": 0.0,
+    "exposure_score": 0.16862745098039217,
+    "subject_detected": true,
+    "issues": [
+      "Image is too dark"
+    ]
+  },
+  "model_info": {
+    "model_version": "Leaf_v1.0",
+    "threshold_profile": "default",
+    "inference_timestamp": "2026-02-22T21:43:07.646377+00:00",
+    "model_type": "Lite Model",
+    "model_description": "IoTREE-Leaf-v1.0 for fast crop Analytics"
+  }
+}
